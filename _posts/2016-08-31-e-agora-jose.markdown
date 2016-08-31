@@ -1,9 +1,10 @@
 ---
 layout:     post
-title:      "The dreams of yesterday are the hopes of today and the reality of tomorrow."
-date:       2014-07-01 12:00:00
-author:     "Start Bootstrap"
-header-img: "img/post-bg-02.jpg"
+title:      "E agora josé? Como faço para enviar meu artigo?"
+subtitle:   "Saiba como estruturar o seu artigo nesse blog, vendo os detalhes do Pull Request e a dicas de organização dos conteúdos."
+date:       2016-08-31 00:00:00
+author:     "Luiz Carlos Chaves"
+header-img: "img/post-bg-01.jpg"
 ---
 
 <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
