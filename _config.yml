@@ -13,7 +13,7 @@ email_username:  lucachaves@gmail.com
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
-# google_tracking_id:
+google_tracking_id: UA-1523172-4
 
 # Build settings
 markdown: kramdown
