@@ -4,8 +4,7 @@ header-img: img/home-bg.jpg
 email: lucachaves@gmail.com
 copyright_name: Your/Project/Corporate Name
 description: "Write your site description here. It will be used as your sites meta description as well!"
-# baseurl: "/jaguaritech"
-baseurl: ""
+baseurl: "/jaguaribetech"
 url: "http://ifpb.github.io"
 twitter_username: luizcarlosjp
 github_username:  ifpb
