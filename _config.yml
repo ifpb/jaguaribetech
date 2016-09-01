@@ -2,7 +2,7 @@
 title: Jaguaribetech
 header-img: img/home-bg.jpg
 email: lucachaves@gmail.com
-copyright_name: Your/Project/Corporate Name
+copyright_name: Feito com Jekyll e ❤
 description: "Write your site description here. It will be used as your sites meta description as well!"
 baseurl: "/jaguaribetech"
 url: "http://ifpb.github.io"
@@ -10,6 +10,7 @@ twitter_username: luizcarlosjp
 github_username:  ifpb
 # facebook_username:  StartBootstrap
 email_username:  lucachaves@gmail.com
+feed_xml: false
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
@@ -18,6 +19,7 @@ google_tracking_id: UA-1523172-4
 # Build settings
 markdown: kramdown
 highlighter: rouge
+linenos: true
 permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
