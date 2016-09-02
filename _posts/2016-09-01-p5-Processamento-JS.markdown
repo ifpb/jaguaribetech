@@ -8,7 +8,7 @@ header-img: "/img/2016-08-31-e-agora-jose/p5.jpg"
 ---
 
 
- Hello World
+ <h2 class="section-heading">Hello World</h2>
  
  
 
