@@ -6,7 +6,8 @@ description: "Um blog para javascriptear sua vida"
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
+        <h2 class="post-title">
+            {{ post.title }}
         </h2>
         {% if post.subtitle %}
         <h3 class="post-subtitle">
@@ -14,7 +15,7 @@ description: "Um blog para javascriptear sua vida"
         </h3>
         {% endif %}
     </a>
-    <p class="post-meta">Publicado por {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} em {{ post.date | date: "%B %-d, %Y" }}</p>
+    <p class="post-meta">Publicado por {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} <br><i class="fa fa-calendar-o fa-1"></i> {{ post.date | localize: ":long_date" }}</p>
 </div>
 <hr>
 {% endfor %}
@@ -24,12 +25,12 @@ description: "Um blog para javascriptear sua vida"
 <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Avançar</a>
     </li>
     {% endif %}
     {% if paginator.next_page %}
     <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Voltar &rarr;</a>
     </li>
     {% endif %}
 </ul>

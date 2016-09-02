@@ -1,4 +1,5 @@
 # Site settings
+lang: pt-BR
 title: Jaguaribetech
 header-img: img/home-bg.jpg
 email: lucachaves@gmail.com
@@ -6,7 +7,7 @@ copyright_name: Feito com Jekyll e ❤
 description: "Write your site description here. It will be used as your sites meta description as well!"
 baseurl: "/jaguaribetech"
 url: "http://ifpb.github.io"
-twitter_username: luizcarlosjp
+# twitter_username: luizcarlosjp
 github_username:  ifpb
 # facebook_username:  StartBootstrap
 email_username:  lucachaves@gmail.com
