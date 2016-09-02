@@ -22,9 +22,19 @@ header-img: "/img/2016-08-31-e-agora-jose/p5.jpg"
     <script src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.3/p5.js"></script>
  ```
  
- Voce pode usar o editor de texto da sua escolha.
+ <h5 class="section-heading">Criando seu primeiro rascunho:</h5>
+ ```javascript
+ function setup() {
+
+}
+
+function draw() {
+  ellipse(50, 50, 80, 80);
+}
+ ```
  
- <img src="http://i.giphy.com/BRjNBtOgmLweQ.gif" alt="" style="margin: 0 auto;"/>
+ 
+ <img src="http://p5js.org/img/get-started/first-sketch.png" alt="" style="margin: 0 auto;"/>
  
  
  
