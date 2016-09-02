@@ -76,7 +76,8 @@ function draw() {
  ```
  
   <h5 class="section-heading">Create canvas</h5>
-  Por default, o drawing canvas tem tamanho 100x100. Se voce quiser colocar um tamanho customizado, use a funcao ```javascript
+  Por default, o drawing canvas tem tamanho 100x100. Se voce quiser colocar um tamanho customizado, use a funcao
+  ```javascript
   createCanvas()
   ```
   Uma boa é sempre fazer isso na primeira linha do setup(). O codigo abaixo seta o canvas para tamanho 600x400:
@@ -88,6 +89,15 @@ function draw() {
   ```
   createCanvas() vai gerar um novo canvas para desenho no tamanh especificado e concatenado a sua pagina html.
   Se existir outros conteudos na body da sua pagina, ele ira ser adicionado no conteudo seguinte.
+ 
+ O canvas pode ser afetado por algum css existente na pagina, incluindo o default. Por exemplo, muitos browsers tem padding default perto do fim da pagina. Se voce ta percebendo que o canvas nao esta no lugar apropiado, deve ser por isso. Para corrigir isso, voce deve colocar uma tag no seu <head> assim:
+ 
+ ```javascript
+ <style> body{padding:0; margin:0;} </style>
+ ```
+ <blockquote>Pronto!</blockquote>
+ 
+ Agora é so ir brincando com o p5.js e testando as diversas possibilidades de facanhas que podem ser feitas com ele.
  
 
  
