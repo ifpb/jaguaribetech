@@ -2,9 +2,9 @@
 layout:     post
 title:      "Moment.js: uma biblioteca de datas em JavaScript"
 subtitle:   "Saiba como utilizar a Moment.js. Uma biblioteca que converte, manipula, valida e apresenta datas em javascript."
-date:       2016-08-31 21:00:00
+date:       2016-09-01 22:00:00
 author:     "Talitha Medeiros"
-header-img: "img/2016-08-31-moment-js/code-wall.jpg"
+header-img: "img/2016-09-01-moment-js/code-wall.jpg"
 ---
 
 Nem sempre é fácil lidar com tempo. Não só filosoficamente falando. Mesmo em desenvolvimento web, fazer cálculos de tempo é um desafio.
