@@ -1,8 +1,7 @@
 source 'https://rubygems.org'
 
-gem "i18n"
-
 group :jekyll_plugins do
+  gem "i18n"
   gem "jekyll-paginate"
   gem "jekyll-feed"
   gem "jekyll"
