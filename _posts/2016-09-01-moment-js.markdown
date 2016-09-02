@@ -1,0 +1,124 @@
+---
+layout:     post
+title:      "Moment.js: uma biblioteca de datas em JavaScript"
+subtitle:   "Saiba como utilizar a Moment.js. Uma biblioteca que converte, manipula, valida e apresenta datas em javascript."
+date:       2016-09-01 22:00:00
+author:     "Talitha Medeiros"
+header-img: "img/2016-09-01-moment-js/code-wall.jpg"
+---
+
+Nem sempre é fácil lidar com tempo. Não só filosoficamente falando. Mesmo em desenvolvimento web, fazer cálculos de tempo é um desafio.
+A biblioteca Moment.s tem o intuito de facilitar o trabalho de manipulação de datas.
+
+<h2 class="section-heading">O que é a Moment.js?</h2>
+Moment.js é uma biblioteca javascript disponível gratuitamente. Através dela é possível converter, manipular, validar e apresentar datas em javascript.
+Neste artigo vamos apresentar o Moment.js e mostrar alguns exemplos de utilização desta biblioteca.
+
+<h2 class="section-heading">Onde utilizar?</h2>
+
+Moment foi desenvolvida para trabalhar tanto em browser quando em Node.js.
+
+<h3>Node.js</h3>
+Instale a moment usando o comando a seguir:
+
+```text
+  npm install moment
+```
+
+Depois, faça um `require()` para poder utilizá-la na sua aplicação:
+
+```javascript
+  var moment = require('moment');
+  moment().format();
+```
+
+<h3>Browser</h3>
+Para rodar a Moment no browser, faça o <a href="http://momentjs.com/downloads/moment.js">download do script</a> e o inclua no html usando a tag `<script>`.
+
+<blockquote>A Moment.js cria um objeto moment global que pode ser usado para acessar todas as funcionalidades de manipulação de datas.</blockquote>
+
+```javascript
+  <script src="moment.js"></script>
+	<script>
+   	    moment().format();
+	</script>
+```
+<h2 class="section-heading">Começando com Moment.js</h2>
+
+Através da Moment.js também é possível alterar o formato das datas de acordo com o país.
+
+Comando para dizer à Moment.js o idioma utilizado para exibir as datas:
+
+```javascript
+moment.locale('pt-BR');
+
+```
+
+
+<h3>Formato de data</h3>
+É comum recorrer ao objeto Date para manipulação de datas.
+
+Por exemplo, para converter date strings em Date objects, era preciso dividir as datas e depois fazer concatenações. Através da Moment.js esse processo é simplificado.
+
+Conversões em formato Date são extremamente simples em Moment.js:
+
+```javascript
+moment().format('YYYY MM DD');
+```
+Exemplo de uso:
+
+```javascript
+var date = '2016-09-01';
+var format = 'LLLL';
+var result = moment(date).format(format);
+```
+```text
+Thrusday, September 1, 2016 12:00 AM
+```
+
+
+<h3>Calculando datas</h3>
+Usando a Moment.js também é possível adicionar e subtrair datas.
+Vamos ao exemplo:
+
+- Adição de datas:
+
+```javascript
+var date = new Date ('2016/08/31');
+var dateString = moment(date).add(1, 'day').add(6,'months').format('1');
+```
+```text
+01/09/2016
+```
+
+- Subtração de datas:
+
+```javascript
+moment().subtract(10, 'days').calendar();
+```
+```text
+21/08/2016
+```
+
+
+<h3>Tempo relativo</h3>
+O Moment.js também possui cálculo de tempo relativo. Para utilizá-lo, basta aplicar a sintaxe:
+
+```javascript
+moment("20111031", "YYYYMMDD").fromNow();
+```
+```text
+5 years ago
+```
+```javascript
+moment("20120620", "YYYYMMDD").fromNow();
+```
+```text
+4 yares ago
+```
+
+<h2 class="section-heading">Fontes</h2>
+
+- <a href="http://coderpower.com/#/article/570238fb20f0a4c4237fc585">CoderPower</a>
+
+- <a href="http://momentjs.com/guides/">Moment.js Guides</a>
