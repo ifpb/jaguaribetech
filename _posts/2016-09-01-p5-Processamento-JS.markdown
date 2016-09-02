@@ -24,6 +24,8 @@ header-img: "/img/2016-08-31-e-agora-jose/p5.jpg"
  
  Voce pode usar o editor de texto da sua escolha.
  
+ <img src="http://i.giphy.com/BRjNBtOgmLweQ.gif" alt="" style="margin: 0 auto;"/>
+ 
  
  
 
