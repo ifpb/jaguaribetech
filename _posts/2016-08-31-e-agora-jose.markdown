@@ -110,6 +110,7 @@ Uma das opções de criação seria através da cópia e instalação do blog em
 $ gem install jekyll
 $ git clone url_do_seu_fork_do_jaguaribetech
 $ cd jaguaribetech
+$ bundle install
 $ jekyll serve --watch
 ```
 
