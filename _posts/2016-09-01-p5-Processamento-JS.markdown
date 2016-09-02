@@ -8,7 +8,7 @@ header-img: "/img/2016-08-31-e-agora-jose/p5.jpg"
 ---
 
 
- <h2 class="section-heading">Hello World</h2>
+ <h2 class="section-heading">p5 JS Library</h2>
  
  <h4 class="section-heading">O que é p5.js? Para que serve?</h4>
  p5 js é uma biblioteca de JavaScript usada para Processamento. Mas como assim?
@@ -32,10 +32,32 @@ function draw() {
   ellipse(50, 50, 80, 80);
 }
  ```
+ Esta linha de codigo significa "desenhe um circulo, com 50 pixels no centro da esquerda, 50 pixels de cima, com uma largura e altura de 80 pixels.
  
+ Salve seu rascunho e recarregue a pagina. Se voce digitou tudo corretamente, voce vera isso:
  
  <img src="http://p5js.org/img/get-started/first-sketch.png" alt="" style="margin: 0 auto;"/>
  
+ Se voce nao digitou corretamente, talvez voce nao veja nada. Se isso acontecer, verifique se voce copiou o codigo exatamente igual: os numeros devem estar em parenteses e com virgulas entre eles, e a linha deve terminar com um ponto e virgula.
+ 
+ Agora, vamos fazer um rascunho um pouco mais bacana. Teste o seguinte codigo:
+ ```javascript
+ function setup() {
+  createCanvas(640, 480);
+}
+
+function draw() {
+  if (mouseIsPressed) {
+    fill(0);
+  } else {
+    fill(255);
+  }
+  ellipse(mouseX, mouseY, 80, 80);
+}
+ ```
+ Como voce pode ver esse codigo gera uma janela com 640 de largura por 480 pixels de altura, e em seguida comeca a desenhar circulos brancos na posicao do mouse. Quando o mouse é clicado, a cor do circulo muda para preto. 
+ 
+ <img src="http://p5js.org/img/get-started/first-sketch2.png" alt="" style="margin: 0 auto;"/>
  
  
 
