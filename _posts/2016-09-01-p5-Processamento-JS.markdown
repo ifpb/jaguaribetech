@@ -23,6 +23,7 @@ header-img: "/img/2016-08-31-e-agora-jose/p5.jpg"
  ```
  
  <h5 class="section-heading">Criando seu primeiro rascunho:</h5>
+ 
  ```javascript
  function setup() {
 
@@ -58,6 +59,21 @@ function draw() {
  Como voce pode ver esse codigo gera uma janela com 640 de largura por 480 pixels de altura, e em seguida comeca a desenhar circulos brancos na posicao do mouse. Quando o mouse é clicado, a cor do circulo muda para preto. 
  
  <img src="http://p5js.org/img/get-started/first-sketch2.png" alt="" style="margin: 0 auto;"/>
+ 
+ Existem duas funcoes principais que voce ira usar. O bloco setup() é executado apenas uma vez, e é tipicamente usado para inicializacao, ou para criar um progama que nao precisa de um codigo rodando repetidamente. O bloco draw() é executado repetidamente, ele é usado para animacao.
+ 
+ ```javascript
+ var x = 0;
+
+function setup() {
+  background(100);  
+}
+
+function draw() {
+  ellipse(x, height/2, 20, 20);
+  x = x + 1;
+}
+ ```
  
  
 
