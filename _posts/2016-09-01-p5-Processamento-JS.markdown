@@ -98,6 +98,9 @@ function draw() {
  <blockquote>Pronto!</blockquote>
  
  Agora é so ir brincando com o p5.js e testando as diversas possibilidades de facanhas que podem ser feitas com ele.
+ <img src="http://i.giphy.com/xT0Gql3DlyJ0EeRAA0.gif" alt="" style="margin: 0 auto;"/>
+ 
+ <iframe src="//giphy.com/embed/3XRVcFDw7O1AA" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/thisisfusion-congratulations-congrats-you-did-it-3XRVcFDw7O1AA">via GIPHY</a></p>
  
 
  
