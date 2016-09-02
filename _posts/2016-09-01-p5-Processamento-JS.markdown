@@ -95,9 +95,9 @@ function draw() {
  ```javascript
  <style> body{padding:0; margin:0;} </style>
  ```
- <blockquote>Pronto!</blockquote>
+ <blockquote>Pronto! Agora é so ir brincando com o p5.js e testando as diversas possibilidades de facanhas que podem ser feitas com ele. Para se aprofundar no p5.js: <a href="https://p5js.org/tutorials/">p5.js</a></blockquote>
  
- Agora é so ir brincando com o p5.js e testando as diversas possibilidades de facanhas que podem ser feitas com ele.
+ 
  <img src="http://i.giphy.com/3XRVcFDw7O1AA.gif alt="" style="margin: 0 auto;"/>
  
  <h3 class="section-heading">FONTES:</h3>
