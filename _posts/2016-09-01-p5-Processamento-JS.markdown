@@ -17,10 +17,12 @@ header-img: "/img/2016-08-31-e-agora-jose/p5.jpg"
  
  <h4 class="section-heading">Como comecar a usar?</h4>
  
- Primeiramente, voce deve adicionar este tag ao seu HTML:
+ Primeiramente, voce deve adicionar este CDN ao seu HTML:
  ```javascript
     <script src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.3/p5.js"></script>
  ```
+ 
+ Voce pode usar o editor de texto da sua escolha.
  
  
  
