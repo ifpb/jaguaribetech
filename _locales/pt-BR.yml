@@ -214,6 +214,6 @@ pt-BR:
     formats:
       default: "%a, %d de %B de %Y, %H:%M:%S %z"
       long: "%d de %B de %Y, %H:%M"
-      long_date: "%d de %B de %Y"
+      dateformat: "%d de %B de %Y"
       short: "%d de %B, %H:%M"
     pm: ''

@@ -12,7 +12,7 @@ layout: default
                     {% if page.subtitle %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
-                    <span class="meta">Publicado por {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} <br><i class="fa fa-calendar-o fa-1"></i> {{ page.date | localize: ":long_date" }} </span>
+                    <span class="meta">Publicado por {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} <br><i class="fa fa-calendar-o fa-1"></i> {{ page.date | localize: ":dateformat" }} </span>
                 </div>
             </div>
         </div>
