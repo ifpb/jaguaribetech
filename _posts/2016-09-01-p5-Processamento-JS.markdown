@@ -74,6 +74,21 @@ function draw() {
   x = x + 1;
 }
  ```
+ 
+  <h5 class="section-heading">Create canvas</h5>
+  Por default, o drawing canvas tem tamanho 100x100. Se voce quiser colocar um tamanho customizado, use a funcao ```javascript
+  createCanvas()
+  ```
+  Uma boa é sempre fazer isso na primeira linha do setup(). O codigo abaixo seta o canvas para tamanho 600x400:
+  ```javascript
+  function setup() {
+  createCanvas(600, 400);
+  line(15, 25, 70, 90);
+}
+  ```
+  createCanvas() vai gerar um novo canvas para desenho no tamanh especificado e concatenado a sua pagina html.
+  Se existir outros conteudos na body da sua pagina, ele ira ser adicionado no conteudo seguinte.
+ 
 
  
  
