@@ -15,6 +15,13 @@ header-img: "/img/2016-08-31-e-agora-jose/p5.jpg"
  Processamento é um software flexivel para se aprender a progamar dentro do contexto de artes visuais.
  Des de 2001, Processing tem promivido software on ambito de artes visuais na tecnologia. Existem milhares de estudantes, artistas, designers e pesquisadores que usam Processing para apredizagem e prototipar.
  
+ <h4 class="section-heading">Como comecar a usar?</h4>
+ 
+ Primeiramente, voce deve adicionar este tag ao seu HTML:
+ ```javascript
+    <script src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.3/p5.js"></script>
+ ```
+ 
  
  
 
