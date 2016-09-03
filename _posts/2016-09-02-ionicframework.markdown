@@ -17,7 +17,7 @@ Tudo bem, criar apps hibridos é definitivamente um ponto positivo para nós des
   
 <img src="https://cdn.meme.am/instances/400x/66555912.jpg" alt="" style="margin: 0 auto;"/>
   
-Para isso foi criado o Ionic, um framework front-end criado pela Drifty, voltado para o desenvolvimento de aplicativos hibridos e que faz uso do HTML em parceria com o <a href="https://angularjs.org/">AngularJs</a> (já incluindo o JavaScript) e CSS, capaz de criar apps com UI's 
+Para isso foi criado o Ionic, um framework front-end criado pela Drifty, voltado para o desenvolvimento de aplicativos hibridos e que faz uso do HTML em parceria forte com o <a href="https://angularjs.org/">AngularJs</a> (já incluindo o JavaScript) e CSS, capaz de criar apps com UI's 
 com um bom desempenho e fluidez.
 
 <h2 class="section-heading"> O Ionic Framework </h2>
