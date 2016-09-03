@@ -7,4 +7,4 @@ author:     "Gilberto Firmino de Souza Neto"
 header-img: "img/2016-09-02-ionic_framework/ionic_icon.png"
 ---
 
-<h1> _O desenvolvimento de mobile apps em HTML5_</h1>
+<h1> O desenvolvimento de mobile apps em HTML5 </h1>
