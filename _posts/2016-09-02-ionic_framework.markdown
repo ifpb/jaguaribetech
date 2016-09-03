@@ -4,7 +4,7 @@ title:      "O Ionic framework e o desenvolvimento de apps em HTML5"
 subtitle:   "May the Ionic be with you!"
 date:       2016-09-02 00:00:00
 author:     "Gilberto Firmino de Souza Neto"
-header-img: "img/2016-09-02-ionic_framework/ionic_icon.png"
+header-img: "img/2016-09-02-ionicframework/ionic_icon.png"
 ---
 
 <h2 class="section-heading"> O desenvolvimento de mobile apps em HTML5 </h2>
@@ -28,6 +28,6 @@ O Ionic já mencionado anteriormente é um framework que tem como objetivo, perm
 
 <h3> Componentes do Ionic </h3>
   
-  <img src="img/2016-09-02-ionic_framework/HTML5_Logo_512.png"/>
+
 
     
