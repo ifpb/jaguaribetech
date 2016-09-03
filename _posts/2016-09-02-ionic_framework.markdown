@@ -26,5 +26,8 @@ O Ionic já mencionado anteriormente é um framework que tem como objetivo, perm
 
 <img src="http://www.reactiongifs.com/wp-content/uploads/2011/09/mind_blown.gif" alt="" style="margin: 0 auto;"/>
 
+<h3> Componentes do Ionic </h3>
   
+  <img src="img/2016-09-02-ionic_framework/HTML5_Logo_512.png"/>
+
     
