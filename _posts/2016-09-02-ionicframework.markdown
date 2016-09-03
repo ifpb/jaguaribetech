@@ -27,11 +27,14 @@ O Ionic já mencionado anteriormente é um framework que tem como objetivo, perm
 <img src="http://www.reactiongifs.com/wp-content/uploads/2011/09/mind_blown.gif" alt="" style="margin: 0 auto;"/>
 
 <h2 class="section-heading"> Componentes do Ionic </h2>
+
 <img src="https://http2.mlstatic.com/curso-html5-em-video-bnus-css3-e-javascript-D_NQ_NP_882011-MLB20456508120_102015-O.jpg"/>
 
-                   
 <img src="http://www.w3schools.com/angular/pic_angular.jpg"/>
+
 <img src="http://devgirl.org/wp-content/uploads/2014/02/cordova_bot.png"/>
+
+
 
 
     
