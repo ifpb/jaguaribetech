@@ -60,6 +60,12 @@ $ ionic start myApp blank
 
 <blockquote>O nome "MyApp" pode ser substituido pelo nome que você deseja dar ao projeto criado.</blockquote>
 
+Apos a execução do comando acima, o Ionic apresenta um help menu com o seguinte layout:
+
+```text
+<img src="http://tutsmais.com.br/blog/wp-content/uploads/2015/04/Screen-Shot-2015-04-30-at-00.20.05.png"/>
+```
+
 ```text
 Em seguida será criado um diretório com o nome dado ao projeto, que pode ser acessado pelos comandos $ cd "MyApp" && ls, gerando a listagem de arquivos existentes na pasta criada.
 ```
