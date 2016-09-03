@@ -74,6 +74,16 @@ $ ionic platform add android
 $ ionic platform add ios
 ```
 
+Agora vamos testar se o projeto criado esta funcionando corretamente.
 
-
+<blockquote> Para projetos voltados p/ Android execute o seguinte comando: </blockquote>
+```shell
+$ ionic build android
+$ ionic emulate android
+```
+<blockquote> Para projetos voltados p/ IoS execute o seguinte comando: </blockquote>
+```shell
+$ ionic build ios
+$ ionic emulate ios
+```
     
