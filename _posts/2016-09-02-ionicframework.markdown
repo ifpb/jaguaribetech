@@ -106,12 +106,12 @@ Primeiramente é preciso criar um documento index.html que será a main page do 
     <title>Todo</title>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
 
-    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet"> <!-- Referência para utilização dos recursos CSS do IONIC -->
 
-    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="lib/ionic/js/ionic.bundle.js"></script> <!-- Referência para utilização dos recursos JS e Angular do IONIC -->
 
     <!-- Needed for Cordova/PhoneGap (will be a 404 during development) -->
-    <script src="cordova.js"></script>
+    <script src="cordova.js"></script> <!-- Referência para utilização dos recursos do Cordova -->
   </head>
   <body>
   </body>
