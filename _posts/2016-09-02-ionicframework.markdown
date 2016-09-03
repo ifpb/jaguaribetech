@@ -31,6 +31,7 @@ O Ionic já mencionado anteriormente é um framework que tem como objetivo, perm
 
                    
 <img src="http://www.w3schools.com/angular/pic_angular.jpg"/>
+<img src="http://devgirl.org/wp-content/uploads/2014/02/cordova_bot.png"/>
 
 
     
