@@ -7,7 +7,7 @@ author:     "Gilberto Firmino de Souza Neto"
 header-img: "img/2016-09-02-ionic_framework/ionic_icon.png"
 ---
 
-<h1> O desenvolvimento de mobile apps em HTML5 </h1>
+<h2 class="section-heading"> O desenvolvimento de mobile apps em HTML5 </h2>
 
 Quando falamos de desenvolvimento, a cada dia que passa é possível notar a existência de um movimento migratório
 partindo dos desenvolvedores _web_ rumo ao campo do desenvolvimento _mobile_. E isso ocorre devido a progressão
@@ -20,7 +20,7 @@ Tudo bem, criar apps hibridos é definitivamente um ponto positivo para nós des
 Para isso foi criado o Ionic, um framework front-end criado pela Drifty, voltado para o desenvolvimento de aplicativos hibridos e que faz uso do HTML em parceria com o AngularJs (já incluindo o JavaScript) e CSS, capaz de criar apps com UI's 
 com um bom desempenho e fluidez.
 
-<h1> O Ionic Framework </h1>
+<h2 class="section-heading"> O Ionic Framework </h2>
 
   
     
