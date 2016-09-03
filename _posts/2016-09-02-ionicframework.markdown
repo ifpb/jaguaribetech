@@ -117,4 +117,6 @@ Primeiramente é preciso criar um documento index.html que será a main page do 
   </body>
 </html>
 ```
-    
+
+Hora de utilizar as funcionalidades JavaScript e Angular no nosso projeto! 
+
