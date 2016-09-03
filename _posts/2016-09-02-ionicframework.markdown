@@ -63,8 +63,16 @@ $ ionic start myApp blank
 ```text
 Em seguida será criado um diretório com o nome dado ao projeto, que pode ser acessado pelos comandos $ cd "MyApp" && ls, gerando a listagem de arquivos existentes na pasta criada.
 ```
+Agora é necessário informar ao Ionic quais plataformas serão usadas e consequentemente configuradas.
 
-
+<blockquote> Para plataforma Android execute o seguinte comando: </blockquote>
+```shell
+$ ionic platform add android
+```
+<blockquote> Para plataforma IoS execute o seguinte comando: </blockquote>
+```shell
+$ ionic platform add ios
+```
 
 
 
