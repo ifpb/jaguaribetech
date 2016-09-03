@@ -32,7 +32,7 @@ O Ionic já mencionado anteriormente é um framework que tem como objetivo, perm
 <img src="http://www.w3schools.com/angular/pic_angular.jpg"/>
 <img src="http://devgirl.org/wp-content/uploads/2014/02/cordova_bot.png"/>
 
-<h2 class="section heading"> Como utilizar o Ionic </h2>
+<h2 class="section heading"> Como util o Ionic </h2>
 
 Agora que conhecemos o poder do Ionic, vamos aprender a fazer deste framework incrível! 
 
@@ -91,4 +91,6 @@ $ ionic emulate android
 $ ionic build ios
 $ ionic emulate ios
 ```
+
+<h3 section="header"> Criando um app </h3> 
     
