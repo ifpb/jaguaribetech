@@ -34,6 +34,15 @@ O Ionic já mencionado anteriormente é um framework que tem como objetivo, perm
 
 <h2 class="section heading"> Como utilizar o Ionic </h2>
 
+Agora que conhecemos o poder do Ionic, vamos aprender a fazer deste framework incrível! 
+
+Em primeiro lugar, você deve ter o <a href="https://nodejs.org/en/">NodeJs</a> instalado em seu computador.
+
+Após a verificação e instalação do NodeJs (caso não o possua), vamos a instalação do Cordova. Abra o terminal e digite o seguinte comando:
+
+```javascript
+    sudo npm install -g cordova
+```
 
 
 
