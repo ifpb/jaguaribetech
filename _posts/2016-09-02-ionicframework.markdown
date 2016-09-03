@@ -46,6 +46,20 @@ Após a verificação e instalação do NodeJs (caso não o possua), vamos a ins
 $ sudo npm install -g cordova
 ```
 
+Após a instalação do Cordova com êxito, em seguida iremos instalar o Ionic por meio do seguinte comando, também executado via terminal:
+
+```shell
+$ sudo npm install -g ionic
+```
+
+Simples, não é? Agora já podemos dar inicio a um projeto para a criação de um app. Ainda no terminal, digite:
+
+```shell
+$ ionic start todo blank
+```
+
+<blockquote>O nome "todo" pode ser substituido pelo nome que você deseja dar ao projeto criado</blockquote>
+
 
 
     
