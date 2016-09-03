@@ -38,6 +38,8 @@ Agora que conhecemos o poder do Ionic, vamos aprender a fazer deste framework in
 
 Em primeiro lugar, você deve ter o <a href="https://nodejs.org/en/">NodeJs</a> instalado em seu computador.
 
+<blockquote>Verifique se o node esta instalado em seu computador rapidamente no terminal digitando o seguinte comando: `node -v`.</blockquote>
+
 Após a verificação e instalação do NodeJs (caso não o possua), vamos a instalação do Cordova. Abra o terminal e digite o seguinte comando:
 
 ```shell
