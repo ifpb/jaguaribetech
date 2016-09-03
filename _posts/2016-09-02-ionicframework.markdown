@@ -55,10 +55,16 @@ $ sudo npm install -g ionic
 Simples, não é? Agora já podemos dar inicio a um projeto para a criação de um app. Ainda no terminal, digite:
 
 ```shell
-$ ionic start todo blank
+$ ionic start myApp blank
 ```
 
-<blockquote>O nome "todo" pode ser substituido pelo nome que você deseja dar ao projeto criado</blockquote>
+<blockquote>O nome "MyApp" pode ser substituido pelo nome que você deseja dar ao projeto criado.</blockquote>
+
+```text
+Em seguida será criado um diretório com o nome dado ao projeto, que pode ser acessado pelos comandos $ cd "MyApp" && ls, gerando a listagem de arquivos existentes na pasta criada.
+```
+
+
 
 
 
