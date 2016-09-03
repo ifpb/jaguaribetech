@@ -28,7 +28,8 @@ O Ionic já mencionado anteriormente é um framework que tem como objetivo, perm
 
 <h3> Componentes do Ionic </h3>
 <img src="https://http2.mlstatic.com/curso-html5-em-video-bnus-css3-e-javascript-D_NQ_NP_882011-MLB20456508120_102015-O.jpg"/>
-                   *+*
+
+                   
 <img src="http://www.w3schools.com/angular/pic_angular.jpg"/>
 
 
