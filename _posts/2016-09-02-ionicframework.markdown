@@ -40,8 +40,8 @@ Em primeiro lugar, você deve ter o <a href="https://nodejs.org/en/">NodeJs</a> 
 
 Após a verificação e instalação do NodeJs (caso não o possua), vamos a instalação do Cordova. Abra o terminal e digite o seguinte comando:
 
-```javascript
-    sudo npm install -g cordova
+```shell
+$ sudo npm install -g cordova
 ```
 
 
