@@ -342,7 +342,7 @@ Também é necessário realizar as adições ao código criado para o controlado
 ```
 Try it yourself! 
 
-Não menos importante, a capacidade de adicionar novos projetos ao app é mencionada pelos criadores do Ionic e faz parte do processo de desenvolvimento no seu primeiro aplicativo. Para habilitar essa funcionalidade, atualize o "Center Content" e o "Left Menu" deixando-os dessa forma:
+Não menos importante, a capacidade de adicionar novos projetos ao app é mencionada pelos criadores do Ionic e faz parte do processo de desenvolvimento no seu primeiro aplicativo. Para habilitar essa funcionalidade, atualize o "Center Content" e o "Left Menu" do Index.html, deixando-os dessa forma:
 ```html
 <!-- Center content -->
 <ion-side-menu-content>
