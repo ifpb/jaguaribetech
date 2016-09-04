@@ -179,3 +179,10 @@ Por fim, modifique o <body> do seu Index.html deixando-o com essa estrutura:
   </ion-side-menus>
 </body>
 ```
+E chega um dos momentos mais importantes... Testar o aplicativo e ver o processo do seu desenvolvimento. Existem quatro formas diferentes para realizar testes durante o desenvolvimento. Vamos as formas!
+
+<blockquote> O primeiro método de teste consiste no Desktop Browser test. Vá na pasta onde encontra o projeto criado por meio do terminal e digite: </blockquote>
+
+```shell
+$ ionic serve
+```
