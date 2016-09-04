@@ -4,7 +4,7 @@ title:      "Zepto.js tamanho não é documento."
 subtitle:   "Uma alternativa muito similar ao Jquery."
 date:       2016-09-02 00:00:00
 author:     "Alex Sandro Rodrigues Barbosa"
-header-img: "img/Zepto/Zepto-js-tamanho-nao-e-documento.png" 
+header-img: "img/2016-09-03-Zepto/Zepto-js-tamanho-nao-e-documento.png" 
 ---
 
 <h2 class="section-heading">__Zepto.Js__ , tamanho não é documento :)</h2>
