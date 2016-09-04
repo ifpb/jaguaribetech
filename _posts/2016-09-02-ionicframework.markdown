@@ -212,3 +212,39 @@ $ ionic run android
 Chegamos na ultima etapa de criação de um app no Ionic...
  
 <img src="http://s2.quickmeme.com/img/bc/bc11fad8017bea5537859c64ec345f8e6c0503ca66051b2c470c15ec852c7775.jpg"/>
+
+Continuando o processo de desenvolvimento com base no código utilizado neste artigo, usaremos o ng-repeat, por meio do AngularJs para adicionar algumas caracteristicas de plataformas nativas. Com isso, adicione o ng-repeat ao seu código HTML deixando-o com a seguinte estrutura:
+
+```html
+<!-- Center content -->
+<ion-side-menu-content>
+  <ion-header-bar class="bar-dark">
+    <h1 class="title">Todo</h1>
+  </ion-header-bar>
+  <ion-content>
+    <!-- our list and list items -->
+    <ion-list>
+      <ion-item ng-repeat="task in tasks">
+        {{task.title}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-side-menu-content>
+```
+Agora vamos adicionar um controlador AngularJs ao aplicativo. Na tag "body" do seu HTML adicione o trecho de código:
+```html
+<body ng-app="MyApp" ng-controller="MyAppCtrl">
+```
+Após realizar o passo acima, vá até o arquivo "app.js" para definir o funcionamento do controlador e insira o código:
+```javascript
+angular.module('todo', ['ionic'])
+
+.controller('TodoCtrl', function($scope) {
+  $scope.tasks = [
+    { title: 'Collect coins' },
+    { title: 'Eat mushrooms' },
+    { title: 'Get high enough to grab the flag' },
+    { title: 'Find the Princess' }
+  ];
+})
+```
