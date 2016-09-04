@@ -118,5 +118,23 @@ Primeiramente é preciso criar um documento index.html que será a main page do 
 </html>
 ```
 
-Hora de utilizar as funcionalidades JavaScript e Angular no nosso projeto! 
+Hora de utilizar as funcionalidades CSS, JavaScript e Angular no nosso projeto! 
+
+Uma das várias funcionalidades do Ionic, é a criação de menus laterais, ou Ion-side-menu, oferencendo uma experiência bastante interssante ao usuário no que diz respeito a navegação por menus dentro do app criado. 
+
+Para incluir o ion-side menu basta adicionar ao Index.html, dentro da tag o seguinte trecho de código:
+
+```html
+<body>
+  <ion-side-menus>
+    <ion-side-menu-content>
+    </ion-side-menu-content>
+    <ion-side-menu side="left">
+    </ion-side-menu>
+  </ion-side-menus>
+</body>
+```
+<blockquote> Teste e veja o resultado! A estrutura de menus do seu app ficará mais ou menos assim: </blockquote>
+
+<img src="http://ionicframework.com.s3.amazonaws.com/guide/0.1.0/3-mockup.png"/>
 
