@@ -34,7 +34,7 @@ O Ionic já mencionado anteriormente é um framework que tem como objetivo, faze
 
 <h2 class="section heading"> Como instalar o Ionic </h2>
 
-Agora que conhecemos o poder do Ionic, vamos aprender a fazer deste framework incrível! 
+Agora que conhecemos o poder do Ionic, vamos aprender a fazer uso deste framework incrível! 
 
 Em primeiro lugar, você deve ter o <a href="https://nodejs.org/en/">NodeJs</a> instalado em seu computador.
 
