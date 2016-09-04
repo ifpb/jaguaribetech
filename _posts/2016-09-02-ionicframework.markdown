@@ -138,3 +138,10 @@ Para incluir o ion-side menu basta adicionar ao Index.html, dentro da tag o segu
 
 <img src="http://ionicframework.com.s3.amazonaws.com/guide/0.1.0/3-mockup.png"/>
 
+Ei! Mas não é só isso ok? O Ionic tem diversas funcionalidades desenvolvidas com o AngularJs, junto com a estilização por meio do CSS, que permitem a criação de um mobile app "de respeito". Então seguem os links para você "curtir" e também "compartilhar", é claro!
+
+<blockquote>  <a href="http://ionicframework.com/docs/api/">JavaScript Components</a>
+              <a href="http://ionicframework.com/docs/components/">CSS Componentes</a></blockquote>
+          
+
+
