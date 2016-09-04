@@ -103,7 +103,7 @@ Primeiramente é preciso criar um documento index.html que será a main page do 
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Todo</title>
+    <title>MyApp</title>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
 
     <link href="lib/ionic/css/ionic.css" rel="stylesheet"> <!-- Referência para utilização dos recursos CSS do IONIC -->
@@ -163,7 +163,7 @@ Por fim, modifique o <body> do seu Index.html deixando-o com essa estrutura:
     <!-- Center content -->
     <ion-side-menu-content>
       <ion-header-bar class="bar-dark">
-        <h1 class="title">Todo</h1>
+        <h1 class="title">MyApp</h1>
       </ion-header-bar>
       <ion-content>
       </ion-content>
