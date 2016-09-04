@@ -518,4 +518,7 @@ E...
 <h2 section="heading">Referências</h2>
 
 <a href="http://ionicframework.com/docs/">Ionic Website</a>
+
 <a href="http://tutsmais.com.br/blog/ionicframework/o-que-eu-preciso-saber-para-comecar-com-ionic-framework/">O que eu preciso saber para começar com Ionic framework?</a>
+
+<a href="http://frontinbrazil.com.br/aplicativos-mobile-com-o-angularjs-e-ionic/">Aplicativos mobile com AngularJs e Ionic.</a>
