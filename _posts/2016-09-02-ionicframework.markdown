@@ -248,3 +248,6 @@ angular.module('todo', ['ionic'])
   ];
 })
 ```
+Execute o app novamente por meio dos métodos de teste novamente e veja os resultados. 
+
+
