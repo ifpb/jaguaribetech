@@ -283,6 +283,6 @@ Também podemos adicionar um Modal ao aplicativo, capaz de realizar transições
 
 </script>
 ```
-<blockquote> O script inserido no código acima, serve para definir o template do app como um Angular template. Nele também estão contidas as ações realizadas após o uso de buttons, com as funções manipuladoras de criação e fechamento de "tasks", juntamente com um form que recebe o nome da tarefa a ser criada e é disparada por meio do button de confirmação</blockquote>
+<blockquote> O script inserido no código acima, serve para definir o template do app como um Angular template. Nele também estão contidas as ações realizadas após o uso de buttons, com as funções manipuladoras de criação e fechamento de "tasks", juntamente com um form que recebe o nome da tarefa a ser criada, que por sua vez é disparada por meio do button de confirmação</blockquote>
 
 
