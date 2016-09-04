@@ -209,7 +209,7 @@ Basta conectar o dispositivo móvel no desktop/notebook e executar o comando:
 ```shell
 $ ionic run android
 ```
-Chegamos na ultima etapa de criação de um app no Ionic...
+<h3 section="header">Chegamos na ultima etapa de criação de um app no Ionic...</h3>
  
 <img src="http://s2.quickmeme.com/img/bc/bc11fad8017bea5537859c64ec345f8e6c0503ca66051b2c470c15ec852c7775.jpg"/>
 
