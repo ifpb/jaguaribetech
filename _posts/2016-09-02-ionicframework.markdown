@@ -209,7 +209,7 @@ Basta conectar o dispositivo móvel no desktop/notebook e executar o comando:
 ```shell
 $ ionic run android
 ```
-<h3 section="header">Chegamos na ultima etapa de criação de um app no Ionic...</h3>
+<h3 section="header">Chegamos na ultima etapa de criação como um app no Ionic...</h3>
  
 <img src="http://s2.quickmeme.com/img/bc/bc11fad8017bea5537859c64ec345f8e6c0503ca66051b2c470c15ec852c7775.jpg"/>
 
@@ -283,5 +283,6 @@ Também podemos adicionar um Modal ao aplicativo, capaz de realizar transições
 
 </script>
 ```
+<blockquote> O script inserido no código acima, serve para definir o template do app como um Angular template. Nele também estão contidas as ações realizadas após o uso de buttons, com as funções manipuladoras de criação e fechamento de "tasks", juntamente com um form que recebe o nome da tarefa a ser criada e é disparada por meio do button de confirmação</blockquote>
 
 
