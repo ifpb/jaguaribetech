@@ -522,3 +522,7 @@ E...
 <a href="http://tutsmais.com.br/blog/ionicframework/o-que-eu-preciso-saber-para-comecar-com-ionic-framework/">O que eu preciso saber para começar com Ionic framework?</a>
 
 <a href="http://frontinbrazil.com.br/aplicativos-mobile-com-o-angularjs-e-ionic/">Aplicativos mobile com AngularJs e Ionic.</a>
+
+<a href="https://github.com/IonicBrazil/guia-do-desenvolvedor/blob/master/README.md">Guia do Desenvolvedor Ionic - Github</a>
+
+<a href="http://comocriaraplicativos.com.br/o-que-e-o-ionic"/>O que é O Ionic?</a>
