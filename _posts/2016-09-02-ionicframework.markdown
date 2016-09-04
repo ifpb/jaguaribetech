@@ -509,4 +509,4 @@ Realizando todos esses passos e por fim atualizando o seu arquivo app.js, você 
 
 E...
 
-<img src="http://giphy.com/gifs/thats-all-folks-upg0i1m4DLe5q"/>
+<img src="https://media.giphy.com/media/upg0i1m4DLe5q/giphy.gif"/>
