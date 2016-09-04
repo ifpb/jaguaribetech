@@ -35,7 +35,7 @@ Links para dependências:
 <li><a href="https://angularjs.org/">angular.js</a></li>
 <li><a href="http://www.chartjs.org/">chart.js</a></li>
 
-Apos isso, baixe o arquivo .js com o comando:
+Após isso, baixe o arquivo .js com o comando:
 
 
 ```shell
@@ -51,7 +51,7 @@ Pronto, agora só precisa incluir o Angular Chart no seu site:
 <script src="node_modules/angular-chart.js/dist/angular-chart.min.js"></script>
 ```
 
-<h2 class="section-heading">Exmplo de uso</h2>
+<h2 class="section-heading">Exemplo de uso</h2>
 
 Para criar um gráfico, por exemplo, de linhas, basta chamar no <I>html</I> o tipo de gráfico desejado, e adaptar as suas características e valores. 
 
@@ -123,7 +123,7 @@ Por último, basta modificar a aparência usando CSS, de acordo com suas prefer�
 
 Além dos gráficos convencionais, você também terá funcionalidades como:
 <li>Gráficos dinâmicos: Excelentes para representar dados de fontes contínuas. </li>
-<li> Gráficos dinâmicos: Em que o usuário pode interagir e presenciar as variações de acordo com a alteração dos valores.</li>
+<li> Gráficos interativos: Em que o usuário pode interagir e presenciar as variações de acordo com a alteração dos valores.</li>
 
 
 <img src="http://www.lobaedesign.com/wp-content/uploads/2013/10/chart-js-example.jpg" alt="" style="margin: 0 auto;"/>
