@@ -340,4 +340,45 @@ Também é necessário realizar as adições ao código criado para o controlado
   };
 })
 ```
+Try it yourself! 
 
+Não menos importante, a capacidade de adicionar novos projetos ao app é mencionada pelos criadores do Ionic e faz parte do processo de desenvolvimento no seu primeiro aplicativo. Para habilitar essa funcionalidade, atualize o "Center Content" e o "Left Menu" deixando-os dessa forma:
+```
+<!-- Center content -->
+<ion-side-menu-content>
+  <ion-header-bar class="bar-dark">
+    <button class="button button-icon" ng-click="toggleProjects()">
+      <i class="icon ion-navicon"></i>
+    </button>
+    <h1 class="title">{{activeProject.title}}</h1>
+    <!-- New Task button-->
+    <button class="button button-icon" ng-click="newTask()">
+      <i class="icon ion-compose"></i>
+    </button>
+  </ion-header-bar>
+  <ion-content scroll="false">
+    <ion-list>
+      <ion-item ng-repeat="task in activeProject.tasks">
+        {{task.title}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-side-menu-content>
+
+<!-- Left menu -->
+  <ion-side-menu side="left">
+    <ion-header-bar class="bar-dark">
+      <h1 class="title">Projects</h1>
+      <button class="button button-icon ion-plus" ng-click="newProject()">
+      </button>
+    </ion-header-bar>
+    <ion-content scroll="false">
+      <ion-list>
+        <ion-item ng-repeat="project in projects" ng-click="selectProject(project, $index)" ng-class="{active: activeProject == project}">
+          {{project.title}}
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+
+```
