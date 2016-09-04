@@ -22,7 +22,7 @@ dotadas de bom desempenho e fluidez.
 
 <h2 class="section-heading"> O Ionic Framework </h2>
 
-O Ionic já mencionado anteriormente é um framework que tem como objetivo, permitir que as aplicações hibridas desenvolvidas para dispositvos móveis, possam utilizar por meio de outros frameworks como o <a href="https://cordova.apache.org/">Cordova</a> (recomendado) ou <a href="http://phonegap.com/"> PhoneGap</a>, recursos de SDK's nativas. Isso permite que os aplicativos criados em HTML5, CSS e JavaScript tenham seus de custos de desenvolvimento reduzidos - pois é necessário desenvolver o app uma única vez - e sejam compativéis com diversas plataformas ao mesmo tempo, ou seja, aquele mesmo app criado por você, pode ser usado em dispositivos Android, IoS e Windows Phone (É isso mesmo, Windows Phone!), minimizando os problemas de funcionalidade.
+O Ionic já mencionado anteriormente é um framework que tem como objetivo, fazer com que as aplicações hibridas desenvolvidas para dispositvos móveis, possam utilizar por meio de outros frameworks como o <a href="https://cordova.apache.org/">Cordova</a> (recomendado) ou <a href="http://phonegap.com/"> PhoneGap</a>, recursos de SDK's nativas. Isso permite que os aplicativos criados em HTML5, CSS e JavaScript tenham seus de custos de desenvolvimento reduzidos - pois é necessário desenvolver o app uma única vez - e sejam compativéis com diversas plataformas ao mesmo tempo, ou seja, aquele mesmo app criado por você, pode ser usado em dispositivos Android, IoS e Windows Phone (É isso mesmo, Windows Phone!), minimizando os problemas de funcionalidade.
 
 <img src="http://www.reactiongifs.com/wp-content/uploads/2011/09/mind_blown.gif" alt="" style="margin: 0 auto;"/>
 
