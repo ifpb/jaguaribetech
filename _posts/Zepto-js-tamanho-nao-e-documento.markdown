@@ -7,7 +7,7 @@ author:     "Alex Sandro Rodrigues Barbosa"
 header-img: "img/2016-09-03-Zepto/Zepto-js-tamanho-nao-e-documento.png" 
 ---
 
-<h2 class="section-heading">__Zepto.Js__ , tamanho não é documento :)</h2>
+<h2 class="section-heading">Zepto.Js , tamanho não é documento :)</h2>
 
 Javascript é um linguagem bastante difundida no mundo frontend, com diversas variações e simplificações para facilitar a vida do desenvolvedor. É com esse intuíto que a librarie **Zepto.js** foi criada. Permitir o nelhor aproveitamento do tempo do desenvolvedor. Aumentar sua produtivide, descomplicando tarefas que custariam muito tempo, fazendo uso de apenas pequenos comandos dessa plataforma leve e otimizada da linguagem JavaScript.
 
@@ -15,7 +15,7 @@ Javascript é um linguagem bastante difundida no mundo frontend, com diversas va
 
 Muito semelhante ao seu principal concorrente **Jquery.js** (Lider da área, vale a pena salientar :) ). Também permite interação entre **HTML, CSS e JavaScript**, manipulação de **DOM**, assim como também **Ajax**.
 
-<h2 class="section-heading">Como obter e usar a biblioteca __zepto.js__</h2>
+<h2 class="section-heading">Como obter e usar a biblioteca zepto.js</h2>
 
 Pode ser obtido pelo site da librarie em dois arquivos:
 
@@ -98,7 +98,7 @@ Obter dados JSON através de solicitação GET Ajax. Este é um dos atalhos para
 
 **Enfim**
 
-**zepto.js** praticamente resolve muitas das necessidades dos desenvolvedores, similar ao **Jquery** e com um tamanho de arquivos bem menor, em sua versão completa por apenas 57.3k não comprimido. E em sua versão __min__ com tamanho de apenas 9,6k comprimidos. Sendo esse um diferêncial para uso em dispositivos móveis. E outro diferencial, é que devido a sua construção modular, caso você não necessite de todas as funcionalidades dessa librarie, baixe apenas o que precise.
+**zepto.js** praticamente resolve muitas das necessidades dos desenvolvedores, similar ao **Jquery** e com um tamanho de arquivos bem menor, em sua versão completa por apenas 57.3k não comprimido. E em sua versão **min** com tamanho de apenas 9,6k comprimidos. Sendo esse um diferêncial para uso em dispositivos móveis. E outro diferencial, é que devido a sua construção modular, caso você não necessite de todas as funcionalidades dessa librarie, baixe apenas o que precise.
 Cabe ao desenvolvedor fazer sua avalização e decidir qual melhor a cada caso.
 
 Para mais recursos, que são muitos, visite a página do <a href="http://zeptojs.com/zepto.js">zepto.js</a>.
