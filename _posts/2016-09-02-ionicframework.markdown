@@ -143,3 +143,5 @@ Ei! Mas não é só isso ok? O Ionic tem diversas funcionalidades desenvolvidas 
 <blockquote><a href="http://ionicframework.com/docs/api/">JavaScript Components</a></blockquote>
 <blockquote><a href="http://ionicframework.com/docs/components/">CSS Componentes</a></blockquote>
 
+<img src="http://i2.kym-cdn.com/photos/images/original/000/538/716/7f5.gif"/>
+
