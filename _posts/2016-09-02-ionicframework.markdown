@@ -503,3 +503,5 @@ angular.module('todo', ['ionic'])
 
 })
 ```
+<h2 section="heading">Concluindo...</h2>
+Realizando todos esses passos e por fim atualizando o seu arquivo app.js, você finalmente será capaz executar um app e compreender como funciona o Ionic, além de poder dar inicio ao processo de desenvolvimento do seu próprio aplicativo hibrido para dispositivos móveis. 
