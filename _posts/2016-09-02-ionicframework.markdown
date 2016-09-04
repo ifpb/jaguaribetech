@@ -134,7 +134,7 @@ Para incluir o ion-side menu basta adicionar ao Index.html, dentro da tag o segu
   </ion-side-menus>
 </body>
 ```
-<blockquote> Teste e veja o resultado! A estrutura de menus do seu app ficará mais ou menos assim: </blockquote>
+<blockquote> A estrutura de menus do seu app ficará mais ou menos assim: </blockquote>
 
 <img src="http://ionicframework.com.s3.amazonaws.com/guide/0.1.0/3-mockup.png"/>
 
@@ -144,4 +144,10 @@ Ei! Mas não é só isso ok? O Ionic tem diversas funcionalidades desenvolvidas 
 <blockquote><a href="http://ionicframework.com/docs/components/">CSS Componentes</a></blockquote>
 
 <img src="http://i2.kym-cdn.com/photos/images/original/000/538/716/7f5.gif"/>
+
+Agora que você já descobriu a amplitude do Ionic, é hora de dar vida ao seu app, ou seja, transformar o código desenvolvido em algo funcional. Para isso, é necessário criar um arquivo no diretório "MyApp/js" com o nome app.js . Em seguida, insira o seguinte código no arquivo:
+
+```javascript
+angular.module('todo', ['ionic'])
+```
 
