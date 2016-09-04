@@ -198,3 +198,11 @@ No terminal, execute a instrução:
 $ ionic build "plataforma"
 $ ionic emulate "plataforma"
 ```
+Obs: no campo "plataforma" basta apenas modificar para ios ou android, de acordo com o seu objetivo.
+
+```text
+Por fim, existe a possibilidade de testar um aplicativo hibrido diretamente em um ambiente nativo, ou seja, diretamente em um dispositivo móvel. Em dispositivos Android, o procedimento é bastante simples. Basta conectar o dispositivo móvel no desktop/notebook e executar o comando:
+```
+```shell
+$ ionic run android
+```
