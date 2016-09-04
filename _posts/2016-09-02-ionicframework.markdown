@@ -148,6 +148,33 @@ Ei! Mas não é só isso ok? O Ionic tem diversas funcionalidades desenvolvidas 
 Agora que você já descobriu a amplitude do Ionic, é hora de dar vida ao seu app, ou seja, transformar o código desenvolvido em algo funcional. Para isso, é necessário criar um arquivo no diretório "MyApp/js" com o nome app.js . Em seguida, insira o seguinte código no arquivo:
 
 ```javascript
-angular.module('todo', ['ionic'])
+angular.module('MyApp', ['ionic'])
 ```
+Feito isso, volte ao seu arquivo Index.html e antes da tag que referência o Cordova insira o script:
+```html
+<script src="js/app.js"></script>
+```
+Por fim, modifique o <body> do seu Index.html deixando-o com essa estrutura:
 
+```html
+<body ng-app="MyApp">
+  <ion-side-menus>
+
+    <!-- Center content -->
+    <ion-side-menu-content>
+      <ion-header-bar class="bar-dark">
+        <h1 class="title">Todo</h1>
+      </ion-header-bar>
+      <ion-content>
+      </ion-content>
+    </ion-side-menu-content>
+
+    <!-- Left menu -->
+    <ion-side-menu side="left">
+      <ion-header-bar class="bar-dark">
+        <h1 class="title">Projects</h1>
+      </ion-header-bar>
+    </ion-side-menu>
+
+  </ion-side-menus>
+</body>
