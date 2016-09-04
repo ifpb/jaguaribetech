@@ -179,12 +179,22 @@ Por fim, modifique o <body> do seu Index.html deixando-o com essa estrutura:
   </ion-side-menus>
 </body>
 ```
-E chega um dos momentos mais importantes... Testar o aplicativo e ver o processo do seu desenvolvimento. Existem quatro formas diferentes para realizar testes durante o desenvolvimento. Vamos as formas!
+E chega um dos momentos mais importantes... Testar o aplicativo e ver o processo do seu desenvolvimento. Existem quatro formas diferentes para realizar testes durante o desenvolvimento. Vamos as formas de teste!
 
 ```text
-O primeiro método de teste consiste no Desktop Browser test. Vá na pasta onde encontra o projeto criado por meio do terminal e digite: 
+O primeiro método de teste consiste no Desktop Browser test. 
+Vá na pasta onde encontra o projeto criado por meio do terminal e digite: 
 ```
-
 ```shell
 $ ionic serve
+```
+Ao executar o comando acima, será criado um servidor local em seu computador, permitindo que você observe o resultado pelo código desenvolvido em HTML, CSS e JavaScript.
+
+```text
+O segundo método de teste é realizando a simulação do app com base na plataforma (Ios, Android) desejada.
+No terminal, execute a instrução:
+```
+```shell
+$ ionic build "plataforma"
+$ ionic emulate "plataforma"
 ```
