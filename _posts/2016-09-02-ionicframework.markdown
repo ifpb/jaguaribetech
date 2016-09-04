@@ -178,3 +178,4 @@ Por fim, modifique o <body> do seu Index.html deixando-o com essa estrutura:
 
   </ion-side-menus>
 </body>
+```
