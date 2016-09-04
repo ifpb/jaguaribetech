@@ -22,8 +22,7 @@ Pode ser obtido pelo site da librarie em dois arquivos:
 * Em sua versão completa com comentários <a href="http://zeptojs.com/zepto.js">zepto.js v1.2.0</a>
 * Em sua versão simplificada, contendo apenas o código <a href="http://zeptojs.com/zepto.min.js">zepto.min.js v1.2.0</a>
 
-Ou ainda:
-Execute:
+Ou ainda, execute no terminal:
   ```
       npm install zepto
   ```
