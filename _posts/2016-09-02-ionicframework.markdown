@@ -285,4 +285,59 @@ Também podemos adicionar um Modal ao aplicativo, capaz de realizar transições
 ```
 <blockquote> O script inserido no código acima, serve para definir o template do app como um Angular template. Nele também estão contidas as ações realizadas após o uso de buttons, com as funções manipuladoras de criação e fechamento de "tasks", juntamente com um form que recebe o nome da tarefa a ser criada, que por sua vez é disparada por meio do button de confirmação</blockquote>
 
+Assim, faz-se necessário gerar um button dentro do ion-side-menu, certo? Certo! Então vamos adiciona-lo deixando o menu desse jeito:
+```html
+ <!-- Center content -->
+  <ion-side-menu-content>
+    <ion-header-bar class="bar-dark">
+      <h1 class="title">Todo</h1>
+      <!-- New Task button-->
+      <button class="button button-icon" ng-click="newTask()">
+        <i class="icon ion-compose"></i>
+      </button>
+    </ion-header-bar>
+    <ion-content>
+      <!-- our list and list items -->
+      <ion-list>
+        <ion-item ng-repeat="task in tasks">
+          {{task.title}}
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu-content>
+```
+Também é necessário realizar as adições ao código criado para o controlador AngularJs:
+```javascript
+.controller('TodoCtrl', function($scope, $ionicModal) {
+  // No need for testing data anymore
+  $scope.tasks = [];
+
+  // Create and load the Modal
+  $ionicModal.fromTemplateUrl('new-task.html', function(modal) {
+    $scope.taskModal = modal;
+  }, {
+    scope: $scope,
+    animation: 'slide-in-up'
+  });
+
+  // Called when the form is submitted
+  $scope.createTask = function(task) {
+    $scope.tasks.push({
+      title: task.title
+    });
+    $scope.taskModal.hide();
+    task.title = "";
+  };
+
+  // Open our new task modal
+  $scope.newTask = function() {
+    $scope.taskModal.show();
+  };
+
+  // Close the new task modal
+  $scope.closeNewTask = function() {
+    $scope.taskModal.hide();
+  };
+})
+```
 
