@@ -10,7 +10,7 @@ header-img: "img/2016-09-02-ionicframework/ionic_icon.png"
 <h2 class="section-heading"> O desenvolvimento de mobile apps em HTML5 </h2>
 
 Quando falamos de desenvolvimento, a cada dia que passa é possível notar a existência de um movimento migratório
-partindo dos desenvolvedores _web_ rumo ao campo do desenvolvimento _mobile_. E isso ocorre devido a progressão
+partindo dos criadores de aplicativos _web_ rumo ao campo dos aplicativos _mobile_. E isso ocorre devido a progressão
 do desenvolvimento hibrido de aplicações, facilitando o trabalho dos desenvolvedores por meio de frameworks. Desenvover aplicativos hibridos consiste na utilização de linguagens front-end como JavaScript, HTML e CSS, diferente do desenvolvimento nativo, que obrigatoriamente deve ser desenvolvido utilizando os recursos da plataforma para o qual o app está sendo desenvolvido.
   
 Tudo bem, criar apps hibridos é definitivamente um ponto positivo para nós desenvolvedores, certo? Sim! Mas e quanto a interface desse aplicativo? Será que podemos criar uma mesma aplicação hibrida, que possua interfaces semelhantes com aquelas desenvolvidas nativamente?? 
