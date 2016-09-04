@@ -250,4 +250,38 @@ angular.module('todo', ['ionic'])
 ```
 Execute o app novamente por meio dos métodos de teste novamente e veja os resultados. 
 
+Também podemos adicionar um Modal ao aplicativo, capaz de realizar transições para elementos diferentes do app. No nosso caso, ele permite a mudança de uma "task" para uma "task" diferente. Após o fechamento da tag ion-side-menu, basta adicionar ao código um novo script dessa forma:
+
+```html
+<script id="new-task.html" type="text/ng-template">
+
+  <div class="modal">
+
+    <!-- Modal header bar -->
+    <ion-header-bar class="bar-secondary">
+      <h1 class="title">New Task</h1>
+      <button class="button button-clear button-positive" ng-click="closeNewTask()">Cancel</button>
+    </ion-header-bar>
+
+    <!-- Modal content area -->
+    <ion-content>
+
+      <form ng-submit="createTask(task)">
+        <div class="list">
+          <label class="item item-input">
+            <input type="text" placeholder="What do you need to do?" ng-model="task.title">
+          </label>
+        </div>
+        <div class="padding">
+          <button type="submit" class="button button-block button-positive">Create Task</button>
+        </div>
+      </form>
+
+    </ion-content>
+
+  </div>
+
+</script>
+```
+
 
