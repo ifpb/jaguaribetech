@@ -219,7 +219,7 @@ Continuando o processo de desenvolvimento com base no código utilizado neste ar
 <!-- Center content -->
 <ion-side-menu-content>
   <ion-header-bar class="bar-dark">
-    <h1 class="title">Todo</h1>
+    <h1 class="title">MyApp</h1>
   </ion-header-bar>
   <ion-content>
     <!-- our list and list items -->
@@ -237,9 +237,9 @@ Agora vamos adicionar um controlador AngularJs ao aplicativo. Na tag "body" do s
 ```
 Após realizar o passo acima, vá até o arquivo "app.js" para definir o funcionamento do controlador e insira o código:
 ```javascript
-angular.module('todo', ['ionic'])
+angular.module('MyApp', ['ionic'])
 
-.controller('TodoCtrl', function($scope) {
+.controller('MyAppCtrl', function($scope) {
   $scope.tasks = [
     { title: 'Collect coins' },
     { title: 'Eat mushrooms' },
@@ -290,7 +290,7 @@ Assim, faz-se necessário gerar um button dentro do ion-side-menu, certo? Certo!
  <!-- Center content -->
   <ion-side-menu-content>
     <ion-header-bar class="bar-dark">
-      <h1 class="title">Todo</h1>
+      <h1 class="title">MyApp</h1>
       <!-- New Task button-->
       <button class="button button-icon" ng-click="newTask()">
         <i class="icon ion-compose"></i>
@@ -308,7 +308,7 @@ Assim, faz-se necessário gerar um button dentro do ion-side-menu, certo? Certo!
 ```
 Também é necessário realizar as adições ao código criado para o controlador AngularJs:
 ```javascript
-.controller('TodoCtrl', function($scope, $ionicModal) {
+.controller('MyAppCtrl', function($scope, $ionicModal) {
   // No need for testing data anymore
   $scope.tasks = [];
 
