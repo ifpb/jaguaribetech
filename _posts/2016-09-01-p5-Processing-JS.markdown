@@ -2,7 +2,7 @@
 layout:     post
 title:      "p5.js - Processing em JS"
 subtitle:   "Aprenda a usar a biblioteca p5 e progamar com artes visuais. O que é p5.js? Para que serve?"
-date:       2016-08-31 00:00:00
+date:       2016-09-01 01:00:00
 author:     "Lucas Dantas"
 header-img: "img/2016-09-01-p5-Processing-JS/p5.png"
 ---

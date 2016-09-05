@@ -11,13 +11,13 @@ header-img: "img/2016-09-02-ionicframework/ionic_icon.png"
 
 Quando falamos de desenvolvimento, a cada dia que passa é possível notar a existência de um movimento migratório
 partindo dos criadores de aplicativos _web_ rumo ao campo dos aplicativos _mobile_. E isso ocorre devido a progressão
-do desenvolvimento hibrido de aplicações, facilitando o trabalho dos desenvolvedores por meio de frameworks. Desenvover aplicativos hibridos consiste na utilização de linguagens front-end como JavaScript, HTML e CSS, diferente do desenvolvimento nativo, que obrigatoriamente deve ser desenvolvido utilizando os recursos da plataforma para o qual o app está sendo desenvolvido.
-  
-Tudo bem, criar apps hibridos é definitivamente um ponto positivo para nós desenvolvedores, certo? Sim! Mas e quanto a interface desse aplicativo? Será que podemos criar uma mesma aplicação hibrida, que possua interfaces semelhantes com aquelas desenvolvidas nativamente?? 
-  
+do desenvolvimento híbrido de aplicações, facilitando o trabalho dos desenvolvedores por meio de frameworks. Desenvover aplicativos híbridos consiste na utilização de linguagens front-end como JavaScript, HTML e CSS, diferente do desenvolvimento nativo, que obrigatoriamente deve ser desenvolvido utilizando os recursos da plataforma para o qual o app está sendo desenvolvido.
+
+Tudo bem, criar apps híbridos é definitivamente um ponto positivo para nós desenvolvedores, certo? Sim! Mas e quanto a interface desse aplicativo? Será que podemos criar uma mesma aplicação hibrida, que possua interfaces semelhantes com aquelas desenvolvidas nativamente??
+
 <img src="https://cdn.meme.am/instances/400x/66555912.jpg" alt="" style="margin: 0 auto;"/>
-  
-Para isso foi criado o Ionic, um framework front-end criado pela Drifty, voltado para o desenvolvimento de aplicativos hibridos e que faz uso do HTML em parceria com o <a href="https://angularjs.org/">AngularJs</a> (já incluindo o JavaScript) e CSS, capaz de criar apps com UI's 
+
+Para isso foi criado o Ionic, um framework front-end criado pela Drifty, voltado para o desenvolvimento de aplicativos híbridos e que faz uso do HTML em parceria com o <a href="https://angularjs.org/">AngularJs</a> (já incluindo o JavaScript) e CSS, capaz de criar apps com UI's
 dotadas de bom desempenho e fluidez.
 
 <h2 class="section-heading"> O Ionic Framework </h2>
@@ -34,7 +34,7 @@ O Ionic já mencionado anteriormente é um framework que tem como objetivo, faze
 
 <h2 class="section heading"> Como instalar o Ionic </h2>
 
-Agora que conhecemos o poder do Ionic, vamos aprender a fazer uso deste framework incrível! 
+Agora que conhecemos o poder do Ionic, vamos aprender a fazer uso deste framework incrível!
 
 Em primeiro lugar, você deve ter o <a href="https://nodejs.org/en/">NodeJs</a> instalado em seu computador.
 
@@ -52,7 +52,7 @@ Após a instalação do Cordova com êxito, em seguida iremos instalar o Ionic p
 $ sudo npm install -g ionic
 ```
 
-Simples, não é? Agora já podemos dar inicio a um projeto para a criação de um app. Ainda no terminal, digite:
+Simples, não é? Agora já podemos dar início a um projeto para a criação de um app. Ainda no terminal, digite:
 
 ```shell
 $ ionic start myApp blank
@@ -79,7 +79,7 @@ $ ionic platform add android
 $ ionic platform add ios
 ```
 
-Agora vamos testar se o projeto criado esta funcionando corretamente.
+Agora vamos testar se o projeto criado está funcionando corretamente.
 
 <blockquote> Para projetos voltados p/ Android execute o seguinte comando: </blockquote>
 ```shell
@@ -92,7 +92,7 @@ $ ionic build ios
 $ ionic emulate ios
 ```
 
-<h3 section="header"> Criando um app no Ionic </h3> 
+<h3 section="header"> Criando um app no Ionic </h3>
 
 Finalmente, vamos aprender a criar um mobile app no Ionic, utilizando suas ferramentas.
 
@@ -118,9 +118,9 @@ Primeiramente é preciso criar um documento index.html que será a main page do 
 </html>
 ```
 
-Hora de utilizar as funcionalidades CSS, JavaScript e Angular no nosso projeto! 
+Hora de utilizar as funcionalidades CSS, JavaScript e Angular no nosso projeto!
 
-Uma das várias funcionalidades do Ionic, é a criação de menus laterais, ou Ion-side-menu, oferencendo uma experiência bastante interssante ao usuário no que diz respeito a navegação por menus dentro do app criado. 
+Uma das várias funcionalidades do Ionic, é a criação de menus laterais, ou Ion-side-menu, oferencendo uma experiência bastante interssante ao usuário no que diz respeito a navegação por menus dentro do app criado.
 
 Para incluir o ion-side menu basta adicionar ao Index.html, dentro da tag o seguinte trecho de código:
 
@@ -182,8 +182,8 @@ Por fim, modifique o <body> do seu Index.html deixando-o com essa estrutura:
 E chega um dos momentos mais importantes... Testar o aplicativo e ver o processo do seu desenvolvimento. Aqui serão apresentadas três formas diferentes para realizar testes durante o desenvolvimento. Vamos as formas de teste!
 
 ```text
-O primeiro método de teste consiste no Desktop Browser test. 
-Vá na pasta onde encontra o projeto criado por meio do terminal e digite: 
+O primeiro método de teste consiste no Desktop Browser test.
+Vá na pasta onde encontra o projeto criado por meio do terminal e digite:
 ```
 ```shell
 $ ionic serve
@@ -201,16 +201,16 @@ $ ionic emulate "plataforma"
 Obs: no campo "plataforma" basta apenas modificar para ios ou android, de acordo com o seu objetivo.
 
 ```text
-Por fim, existe a possibilidade de testar um aplicativo hibrido diretamente em um ambiente nativo, 
-ou seja, diretamente em um dispositivo móvel. 
-Em dispositivos Android, o procedimento é bastante simples. 
+Por fim, existe a possibilidade de testar um aplicativo híbrido diretamente em um ambiente nativo,
+ou seja, diretamente em um dispositivo móvel.
+Em dispositivos Android, o procedimento é bastante simples.
 Basta conectar o dispositivo móvel no desktop/notebook e executar o comando:
 ```
 ```shell
 $ ionic run android
 ```
-<h3 section="header">Chegamos na ultima etapa de criação como um app no Ionic...</h3>
- 
+<h3 section="header">Chegamos na última etapa de criação como um app no Ionic...</h3>
+
 <img src="http://s2.quickmeme.com/img/bc/bc11fad8017bea5537859c64ec345f8e6c0503ca66051b2c470c15ec852c7775.jpg"/>
 
 Continuando o processo de desenvolvimento com base no código utilizado neste artigo, usaremos o ng-repeat, por meio do AngularJs para adicionar algumas caracteristicas de plataformas nativas. Com isso, adicione o ng-repeat ao seu código HTML deixando-o com a seguinte estrutura:
@@ -248,7 +248,7 @@ angular.module('MyApp', ['ionic'])
   ];
 })
 ```
-Execute o app novamente por meio dos métodos de teste novamente e veja os resultados. 
+Execute o app novamente por meio dos métodos de teste novamente e veja os resultados.
 
 Também podemos adicionar um Modal ao aplicativo, capaz de realizar transições para elementos diferentes do app. No nosso caso, ele permite a mudança de uma "task" para uma "task" diferente. Após o fechamento da tag ion-side-menu, basta adicionar ao código um novo script dessa forma:
 
@@ -340,7 +340,7 @@ Também é necessário realizar as adições ao código criado para o controlado
   };
 })
 ```
-Try it yourself! 
+Try it yourself!
 
 Não menos importante, a capacidade de adicionar novos projetos ao app é mencionada pelos criadores do Ionic e faz parte do processo de desenvolvimento no seu primeiro aplicativo. Para habilitar essa funcionalidade, atualize o "Center Content" e o "Left Menu" do Index.html, deixando-os dessa forma:
 ```html
@@ -381,7 +381,7 @@ Não menos importante, a capacidade de adicionar novos projetos ao app é mencio
     </ion-content>
   </ion-side-menu>
 ```
-Por fim, é necessário fazer uma ultima e considerável modificação no arquivo app.js, para habilitar as funcionalidades de criaçao, carregamento e salvamento de projetos. A versão final do app.js deverá ficar assim:
+Por fim, é necessário fazer uma última e considerável modificação no arquivo app.js, para habilitar as funcionalidades de criaçao, carregamento e salvamento de projetos. A versão final do app.js deverá ficar assim:
 
 ```javascript
 angular.module('todo', ['ionic'])
@@ -506,9 +506,9 @@ angular.module('todo', ['ionic'])
 
 <h2 section="heading">Concluindo...</h2>
 
-Realizando todos esses passos e por fim atualizando o seu arquivo app.js, você finalmente será capaz executar um app e compreender como funciona o Ionic. além de poder dar inicio ao processo de desenvolvimento do seu próprio aplicativo hibrido para dispositivos móveis e quão importante é, para desenvolvedores, a utilização de frameworks, que como o Ionic, são em grande maioria OpenSource, prestando um enorme serviço para a comunidade de TI. 
+Realizando todos esses passos e por fim atualizando o seu arquivo app.js, você finalmente será capaz executar um app e compreender como funciona o Ionic. além de poder dar início ao processo de desenvolvimento do seu próprio aplicativo híbrido para dispositivos móveis e quão importante é, para desenvolvedores, a utilização de frameworks, que como o Ionic, são em grande maioria OpenSource, prestando um enorme serviço para a comunidade de TI.
 
-Ah, Caso apareça um interesse em ver como alguns recursos do Ionic funcionam, vale a pena dar uma olhada no <a href="http://codepen.io/ionic/">CodePen</a> 
+Ah, Caso apareça um interesse em ver como alguns recursos do Ionic funcionam, vale a pena dar uma olhada no <a href="http://codepen.io/ionic/">CodePen</a>
 
 E...
 
@@ -525,4 +525,4 @@ E...
 
 <a href="https://github.com/IonicBrazil/guia-do-desenvolvedor/blob/master/README.md">Guia do Desenvolvedor Ionic - Github</a>
 
-<a href="http://comocriaraplicativos.com.br/o-que-e-o-ionic"/>O que é O Ionic?</a>
+<a href="http://comocriaraplicativos.com.br/o-que-e-o-ionic">O que é O Ionic?</a>
