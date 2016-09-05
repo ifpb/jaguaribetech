@@ -13,7 +13,7 @@ header-img: "img/2016-09-01-usando-angular-chart/chart_div.jpg"
 
 Gráficos representam ótimas ferramentes para representar dados numéricos, com uma aparência mais agradável e compreensível. Há diversas formas de gráficos além de mesclagem entre eles, o que proporciona um imenso leque de alternativas de acordo com a necessidade do usuário.
 
-Em praticamente tudo, todas sequências de dados números com algum tipo de relação entre si, podem ser apresentados em forma de gráficos. As diversas variações de gráficos amplia o uso para diversas situações como por exemplo: grupos, variação, desempenho, comparação, especificação e etc. 
+Em praticamente tudo, todas sequências de dados números com algum tipo de relação entre si, podem ser apresentados em forma de gráficos. As diversas variações de gráficos amplia o uso para diversas situações como por exemplo: grupos, variação, desempenho, comparação, especificação e etc.
 
 
 <h2 class="section-heading">Angular Chart</h2>
@@ -23,13 +23,13 @@ Em praticamente tudo, todas sequências de dados números com algum tipo de rela
 <img src="https://www.safaribooksonline.com/blog/wp-content/uploads/2013/11/fig1.ng-chartjs-banner.jpg" alt="" style="margin: 0 auto;"/>
 
 
-As vantagens de utilizar AngularJS Chat em vez do ChatJS diretamente, se resumem em facilidade de uso, uma vez que o Angular apresentam uma API simplificada para uso da biblioteca chat.js. 
+As vantagens de utilizar AngularJS Chat em vez do ChatJS diretamente, se resumem em facilidade de uso, uma vez que o Angular apresentam uma API simplificada para uso da biblioteca chat.js.
 
 
 <h2 class="section-heading">Instalação</h2>
 
 
-Para utilizar o AngularJS Chart é necessário instalar suas duas dependências: AngularJS (versão >= 1.2.x) e Chart.js (versão >= Chart.js 2.0.x). 
+Para utilizar o AngularJS Chart é necessário instalar suas duas dependências: AngularJS (versão >= 1.2.x) e Chart.js (versão >= Chart.js 2.0.x).
 
 Links para dependências:
 <li><a href="https://angularjs.org/">angular.js</a></li>
@@ -44,7 +44,7 @@ $ npm install angular-chart.js --save
 <blockquote>Também disponível em: https://github.com/jtblin/angular-chart.js</blockquote>
 
 
-Pronto, agora só precisa incluir o Angular Chart no seu site: 
+Pronto, agora só precisa incluir o Angular Chart no seu site:
 
 ```text
 <script src="node_modules/chart.js/Chart.min.js"></script>
@@ -53,7 +53,7 @@ Pronto, agora só precisa incluir o Angular Chart no seu site:
 
 <h2 class="section-heading">Exemplo de uso</h2>
 
-Para criar um gráfico, por exemplo, de linhas, basta chamar no <I>html</I> o tipo de gráfico desejado, e adaptar as suas características e valores. 
+Para criar um gráfico, por exemplo, de linhas, basta chamar no <I>html</I> o tipo de gráfico desejado, e adaptar as suas características e valores.
 
 
 <blockquote>Exemplo de código HTML</blockquote>
@@ -62,7 +62,7 @@ Para criar um gráfico, por exemplo, de linhas, basta chamar no <I>html</I> o ti
 <canvas id="line" class="chart chart-line" chart-data="data"
 chart-labels="labels" chart-series="series" chart-options="options"
 chart-dataset-override="datasetOverride" chart-click="onClick"
-</canvas> 
+</canvas>
 ```
 
 O exemplo a seguir, apresenta um gráfico de linhas referente a distribuição de valores entre os meses, note que também é possível inserir componentes como legendas e pontos autoexplicativos ou expositivos.
@@ -70,7 +70,7 @@ O exemplo a seguir, apresenta um gráfico de linhas referente a distribuição d
 <img src="http://angularscript.com/wp-content/uploads/2014/11/angular-chart.js-Reactive-Chart.jpg" alt="" style="margin: 0 auto;"/>
 
 
-Para modificar os valores, você deve utilizar as funções de acordo com o gráfico selecionado. 
+Para modificar os valores, você deve utilizar as funções de acordo com o gráfico selecionado.
 <blockquote>Exemplo de código JavaScript</blockquote>
 
 ```code
@@ -115,7 +115,7 @@ Por último, basta modificar a aparência usando CSS, de acordo com suas prefer�
 ```code
 (function (ChartJsProvider) {
   ChartJsProvider.setOptions({ colors : [ '#803690', '#00ADF9', '#DCDCDC', '#46BFBD', '#FDB45C', '#949FB1', '#4D5360'] });
-}); 
+});
 ```
 
 
@@ -132,9 +132,9 @@ Além dos gráficos convencionais, você também terá funcionalidades como:
 
 <h2 class="section-heading">Conclusão</h2>
 
-Usando Angular Chart, você poderá explicar seus resultados, análises e demais valores, de maneira compreensível e agradável, livrando seus clientes e navegantes do esforço de interpretar variações quantidades assustadoras de dados disponibilizados em tabelas. 
+Usando Angular Chart, você poderá explicar seus resultados, análises e demais valores, de maneira compreensível e agradável, livrando seus clientes e navegantes do esforço de interpretar variações quantidades assustadoras de dados disponibilizados em tabelas.
 
 <h2 class="section-heading">Fontes</h2>
 
-<li>http://jtblin.github.io/angular-chart.js/</li>
-<li>http://www.chartjs.org/</li>
+<li><a href="http://jtblin.github.io/angular-chart.js/">http://jtblin.github.io/angular-chart.js/</a></li>
+<li><a href="http://www.chartjs.org/">http://www.chartjs.org/</a></li>
