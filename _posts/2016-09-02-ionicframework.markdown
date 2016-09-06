@@ -185,6 +185,7 @@ E chega um dos momentos mais importantes... Testar o aplicativo e ver o processo
 O primeiro método de teste consiste no Desktop Browser test.
 Vá na pasta onde encontra o projeto criado por meio do terminal e digite:
 ```
+
 ```shell
 $ ionic serve
 ```
@@ -194,10 +195,12 @@ Ao executar o comando acima, será criado um servidor local em seu computador, p
 O segundo método de teste é realizando a simulação do app com base na plataforma (Ios, Android) desejada.
 No terminal, execute a instrução:
 ```
+
 ```shell
 $ ionic build "plataforma"
 $ ionic emulate "plataforma"
 ```
+
 Obs: no campo "plataforma" basta apenas modificar para ios ou android, de acordo com o seu objetivo.
 
 ```text
@@ -206,9 +209,11 @@ ou seja, diretamente em um dispositivo móvel.
 Em dispositivos Android, o procedimento é bastante simples.
 Basta conectar o dispositivo móvel no desktop/notebook e executar o comando:
 ```
+
 ```shell
 $ ionic run android
 ```
+
 <h3 section="header">Chegamos na última etapa de criação como um app no Ionic...</h3>
 
 <img src="http://s2.quickmeme.com/img/bc/bc11fad8017bea5537859c64ec345f8e6c0503ca66051b2c470c15ec852c7775.jpg"/>
@@ -231,11 +236,15 @@ Continuando o processo de desenvolvimento com base no código utilizado neste ar
   </ion-content>
 </ion-side-menu-content>
 ```
+
 Agora vamos adicionar um controlador AngularJs ao aplicativo. Na tag "body" do seu HTML adicione o trecho de código:
+
 ```html
 <body ng-app="MyApp" ng-controller="MyAppCtrl">
 ```
+
 Após realizar o passo acima, vá até o arquivo "app.js" para definir o funcionamento do controlador e insira o código:
+
 ```javascript
 angular.module('MyApp', ['ionic'])
 
@@ -248,6 +257,7 @@ angular.module('MyApp', ['ionic'])
   ];
 })
 ```
+
 Execute o app novamente por meio dos métodos de teste novamente e veja os resultados.
 
 Também podemos adicionar um Modal ao aplicativo, capaz de realizar transições para elementos diferentes do app. No nosso caso, ele permite a mudança de uma "task" para uma "task" diferente. Após o fechamento da tag ion-side-menu, basta adicionar ao código um novo script dessa forma:
@@ -349,7 +359,6 @@ Try it yourself!
 
 Não menos importante, a capacidade de adicionar novos projetos ao app é mencionada pelos criadores do Ionic e faz parte do processo de desenvolvimento no seu primeiro aplicativo. Para habilitar essa funcionalidade, atualize o "Center Content" e o "Left Menu" do Index.html, deixando-os dessa forma:
 
-
 ```html
 <!-- Center content -->
 <ion-side-menu-content>
@@ -390,7 +399,6 @@ Não menos importante, a capacidade de adicionar novos projetos ao app é mencio
 ```
 
 Por fim, é necessário fazer uma última e considerável modificação no arquivo app.js, para habilitar as funcionalidades de criação, carregamento e salvamento de projetos. A versão final do app.js deverá ficar assim:
-
 
 ```javascript
 angular.module('todo', ['ionic'])
