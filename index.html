@@ -15,7 +15,7 @@ description: "Um blog para javascriptear sua vida"
         </h3>
         {% endif %}
     </a>
-    <p class="post-meta">Publicado por {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} <br><i class="fa fa-calendar-o fa-1"></i> {{ post.date | localize: ":dateformat" }}</p>
+    <p class="post-meta">Publicado por {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} <br><i class="fa fa-calendar-o fa-1"></i> <date>{{ post.date | localize: ":dateformat" }}</date></p>
 </div>
 <hr>
 {% endfor %}
