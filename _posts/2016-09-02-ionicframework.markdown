@@ -68,13 +68,17 @@ Apos a execução do comando acima, o Ionic apresenta um help menu com o seguint
 ```text
 Em seguida será criado um diretório com o nome dado ao projeto, que pode ser acessado pelos comandos $ cd "MyApp" && ls, gerando a listagem de arquivos existentes na pasta criada.
 ```
+
 Agora é necessário informar ao Ionic quais plataformas serão usadas e consequentemente configuradas.
 
 <blockquote> Para plataforma Android execute o seguinte comando: </blockquote>
+
 ```shell
 $ ionic platform add android
 ```
+
 <blockquote> Para plataforma IoS execute o seguinte comando: </blockquote>
+
 ```shell
 $ ionic platform add ios
 ```
@@ -82,11 +86,14 @@ $ ionic platform add ios
 Agora vamos testar se o projeto criado está funcionando corretamente.
 
 <blockquote> Para projetos voltados p/ Android execute o seguinte comando: </blockquote>
+
 ```shell
 $ ionic build android
 $ ionic emulate android
 ```
+
 <blockquote> Para projetos voltados p/ IoS execute o seguinte comando: </blockquote>
+
 ```shell
 $ ionic build ios
 $ ionic emulate ios
@@ -150,10 +157,13 @@ Agora que você já descobriu a amplitude do Ionic, é hora de dar vida ao seu a
 ```javascript
 angular.module('MyApp', ['ionic'])
 ```
+
 Feito isso, volte ao seu arquivo Index.html e antes da tag que referência o Cordova insira o script:
+
 ```html
 <script src="js/app.js"></script>
 ```
+
 Por fim, modifique o <body> do seu Index.html deixando-o com essa estrutura:
 
 ```html
@@ -179,6 +189,7 @@ Por fim, modifique o <body> do seu Index.html deixando-o com essa estrutura:
   </ion-side-menus>
 </body>
 ```
+
 E chega um dos momentos mais importantes... Testar o aplicativo e ver o processo do seu desenvolvimento. Aqui serão apresentadas três formas diferentes para realizar testes durante o desenvolvimento. Vamos as formas de teste!
 
 ```text
@@ -189,6 +200,7 @@ Vá na pasta onde encontra o projeto criado por meio do terminal e digite:
 ```shell
 $ ionic serve
 ```
+
 Ao executar o comando acima, será criado um servidor local em seu computador, permitindo que você observe o resultado pelo código desenvolvido em HTML, CSS e JavaScript.
 
 ```text
